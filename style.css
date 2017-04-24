@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica', arial;
+}
+#wrapper {
+    width: 1020px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    vertical-align: top;
+    list-style-type: none;
+}
+#group {
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+#group li{
+    display: inline;
+    margin-left: 31.7px;
+    font-size: 10pt;
+    color: red;
+}
+li#three{
+    margin-left: 56px;
+    font-size: 10pt;
+    color: red;
+}
+#period{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 13px;
+    font-size: 10pt;
+    color: red;
+    margin-right: 10px;
+}
+#period li{
+    margin-bottom: 28px;
+}
+#wrapper_inside{
+    width: auto;
+    height: 440px;
+    background-color: lightgrey;
+    margin-left: 40px;
+    margin-top: 40px;
+    vertical-align: top;
+    display: inline-block;
+}
+#left{
+    width: 90px;
+    height: 315px;
+    background-color: lightgrey;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+#middle{
+    width: 740px;
+    height: 315px;
+    background-color: lightgrey;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#bottom{
+    width: 870px;
+    height: 90px;
+    background-color: lightgrey;
+}
+.blue{
+    width: 41px;
+    height: 41px;
+    background-color: powderblue;
+    border: 1px solid rgb(128, 128, 128);
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+p{
+    font-size: 6pt;
+    color: black;
+    text-align: center;
+}
+h1{
+    font-size: 11pt;
+    color: midnightblue;
+    text-align: center;
+}
+.pink{
+    width: 41px;
+    height: 41px;
+    background-color: pink;
+    border: 1px solid rgb(128, 128, 128);
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+.gold{
+    width: 41px;
+    height: 41px;
+    background-color: gold;
+    border: 1px solid rgb(128, 128, 128);
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+.green{
+    width: 41px;
+    height: 41px;
+    background-color: limegreen;
+    border: 1px solid rgb(128, 128, 128);
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+#labels{
+    background-color: lightgrey;
+    width: 75px;
+    height: inherit;
+    font-size: 10pt;
+    color: red;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 37px;
+}
+#labels p {
+    margin-bottom: 28px;
+    margin-top: 16px;
+    font-size: 8pt;
+    color: red;
+}
+#stars{
+    background-color: lightgrey;
+    width: 10px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;}
+#stars p {
+    margin-bottom: 28px;
+    margin-top: 16px;
+    font-size: 10pt;
+    color: red;
+    text-align: right;
+
+}
+.column{
+    width: 42px;
+    display: inline-block;
+}
